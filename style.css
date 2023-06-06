@@ -1,0 +1,66 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(27, 26, 26);
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .logo a {
+  color: beige;
+  text-decoration: none;
+}
+.header .menu a {
+  color: beige;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hero {
+  background: url(https://images.unsplash.com/photo-1617806118233-18e1de247200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2064&q=80) no-repeat fixed;
+  background-size: cover;
+}
+.hero-center {
+  padding: 10% 0;
+  width: 70%;
+  text-align: center;
+  margin: auto;
+}
+.hero-center h2 {
+  font-size: 4em;
+  color: beige;
+}
+.hero-center p {
+  color: white;
+  line-height: 180%;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+.overlay {
+  width: 100%;
+  position: relative;
+  background: rgba(11, 11, 11, 0.7);
+}
+
+.btn {
+  background: green;
+  color: white;
+  padding: 20px 40px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 40px;
+}/*# sourceMappingURL=style.css.map */
