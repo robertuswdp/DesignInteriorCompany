@@ -166,3 +166,53 @@ h5 {
         }
     }
 }
+
+// project
+.project {
+    padding: 10% 0;
+    &-title {
+        padding: 0 0 5%;
+        color: white;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        h3 {
+            color: orange;
+            font-weight: 300;
+        }
+        h2 {
+            font-size: 3em;
+        }
+        p {
+            line-height: 180%;
+        }
+    }
+
+    .category {
+        background: black;
+        color: white;
+        padding: 20px;
+        box-sizing: border-box;
+        margin-top: -100px;
+        position: relative;
+        z-index: 1;
+        &-image{
+            width: 20%;
+            height: 140px;
+            overflow: hidden;
+        }
+        &-desc {
+            width: 30%;
+            height: 100px;
+            overflow: hidden;
+        }
+    }
+    .copyright{
+        color: white;
+        text-align: center;
+        a {
+            text-decoration: none;
+            color: white;
+        }
+    }
+}

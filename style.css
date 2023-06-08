@@ -139,4 +139,52 @@ h5 {
 }
 .services-item .icon {
   width: 64px;
+}
+
+.project {
+  padding: 10% 0;
+}
+.project-title {
+  padding: 0 0 5%;
+  color: white;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+.project-title h3 {
+  color: orange;
+  font-weight: 300;
+}
+.project-title h2 {
+  font-size: 3em;
+}
+.project-title p {
+  line-height: 180%;
+}
+.project .category {
+  background: black;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: -100px;
+  position: relative;
+  z-index: 1;
+}
+.project .category-image {
+  width: 20%;
+  height: 140px;
+  overflow: hidden;
+}
+.project .category-desc {
+  width: 30%;
+  height: 100px;
+  overflow: hidden;
+}
+.project .copyright {
+  color: white;
+  text-align: center;
+}
+.project .copyright a {
+  text-decoration: none;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
