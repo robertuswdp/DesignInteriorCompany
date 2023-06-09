@@ -1,2 +1,2 @@
-# ProfileCompany1
-Profile Company 1
+# Company Profile
+Design Interior
